@@ -1,0 +1,241 @@
+input{
+	border: 1px solid black;
+}
+
+textarea{
+	border: 1px solid black;
+}
+
+#content a, #content a:hover, #content a:active, #content a:visited{
+	text-decoration: underline;
+	color: grey;
+}
+
+#content a:hover{
+	color: black;
+}
+
+.strong{
+	font-family: none;
+	font-weight: bold;
+}
+
+.normal{
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	font-weight: normal;
+}
+
+#register-table{
+	width: 350px;
+}
+
+#register-box{
+	width: 550px;
+	background: #DCED97;
+	margin:auto;
+	text-align:center;
+}
+
+#login-box{
+	width: 400px;
+	background: #DCED97;
+	margin:auto;
+	text-align:center;
+	padding: 20px;
+}
+
+#update-box{
+	width: 450px;
+	background: #DCED97;
+	margin:auto;
+	text-align:center;
+	padding: 20px;
+}
+
+.td-field{
+	
+}
+
+.td-input{
+	
+}
+
+.td-error{
+	font-size: 12px;
+	color: red;
+	text-align:center;
+}
+
+.td-info{
+	font-size: 12px;
+	text-align:center;
+	font-style: italic;
+}
+
+.text-confirm{
+	font-size: 18px;
+	font-family: none;
+	font-weight: bold;
+	color: green;
+}
+
+.master-list{
+	list-style-type: upper-latin;
+	font-weight: bold;
+	font-family: none;
+}
+
+.slave-list{
+	list-style-type: decimal;
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+}
+
+.home-td-right-border{
+	 border-right: 2px solid #ADADAD;
+}
+
+
+/* TRY & BUY */
+.green-shadow{
+	text-shadow: black 0px 0px 2px;
+	color: #A8D242;
+}
+
+.black-shadow{
+	text-shadow: black 0px 0px 4px;
+	color: #000;
+}
+
+.green-td{
+	background: #DCEC96;
+}
+
+.green-bg{
+	background: #DCEC96;
+	padding: 20px;
+}
+
+.orange-dotted-ul{
+	list-style-image: url('../sysimg/submenu_dot_orange.png');
+	margin-top:0px;
+}
+
+.green-dotted-ul{
+	list-style-image: url('../sysimg/submenu_dot_green.png');
+	margin-top:0px;
+}
+
+.green-arrow-ul{
+	list-style-image: url('../sysimg/submenu_arrow_green.png');
+	margin-top:0px;
+}
+
+.td-white-border{
+	border: 2px solid white;
+	text-align:center;
+	width: 250px;
+	font-size: 10px;
+}
+.td-top-b{
+	border-top: 4px solid white;
+}
+.td-right-b{
+	border-right: 4px solid white;
+}
+.td-bottom-b{
+	border-bottom: 4px solid white;
+}
+.td-left-b{
+	border-left: 4px solid white;
+}
+
+.buy-table-intestazione{
+	color: blue;
+	font-size: 10px;
+}
+
+.buy-table-intestazione-bold{
+	font-weight: bold;
+	font-family: none;
+	font-size:11px;
+}
+
+.buy-table-name{
+	font-weight: bold;
+	font-family: none;
+	font-size: 10px;
+}
+
+.buy-table-description{
+	font-family: none;
+	font-size: 9px;
+}
+
+.buy-table-price{
+	font-weight: bold;
+	font-family: none;
+	font-size: 12px;
+}
+
+.buy-table-last-line{
+	text-align:right;
+	font-size: 10px;
+}
+
+.v2ip-green{
+	color: green;
+}
+
+/* TRY & BUY */
+
+
+/* MYV2IP */
+#content .myv2ip-menu-item a{
+	text-decoration: none;
+}
+
+#content .myv2ip-menu-item a img{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+#content .myv2ip-menu-item a:hover img{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+.myv2ip-menu-item-text{
+	font-size: 18px;
+	color: #A8D143;
+	font-weight: bold;
+	font-family: none;
+}
+
+
+.td-host-meeting{
+	color: #A8D242;
+}
+
+.td-classic{
+	border: 1px solid black;
+	text-align:center;
+	vertical-align: center;
+}
+
+.td-intestazione{
+	font-family: none;
+	font-weight: bold;
+}
+
+#logging{
+	font-size:10px;
+	background-color: #B7B7B7;
+	padding:10px;
+}
+
+/* END MYV2IP */
