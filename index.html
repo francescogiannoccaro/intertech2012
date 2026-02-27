@@ -3,12 +3,24 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Redirecting…</title>
-  <meta http-equiv="refresh" content="0; url=./index-en.html" />
-  <link rel="canonical" href="index-en.html" />
-  <script>window.location.replace('index-en.html');</script>
+  <title>Intertech Consulting</title>
+  <script src="js/language.js"></script>
 </head>
 <body>
-  If you are not redirected automatically, <a href="index-en.html">click here</a>.
+  <script>
+    // Check for language preference; redirect to Italian if previously chosen
+    var preference = LanguagePreference.get();
+    if (preference === 'it') {
+      window.location.replace('index-it.html');
+    } else {
+      // Set English as preference and redirect to English page
+      LanguagePreference.set('en');
+      window.location.replace('index-en.html');
+    }
+  </script>
+  
+  <!-- Fallback for JS-disabled browsers -->
+  <meta http-equiv="refresh" content="0; url=./index-en.html" />
+  <p>If you are not redirected automatically, <a href="index-en.html">click here</a>.</p>
 </body>
 </html>
